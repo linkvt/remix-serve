@@ -49,7 +49,7 @@ console.log(
   `npm: ${colours.bright}npm install --save-dev @remix-run/serve${colours.reset} followed by ${colours.bright}npx remix-serve${colours.reset}`
 );
 console.log(
-  `pnpm: ${colours.bright}pnpm add --save-dev @remix-run/serve${colours.reset} followed by ${colours.bright}pnpx remix-serve${colours.reset}`
+  `pnpm: ${colours.bright}pnpm add --save-dev @remix-run/serve${colours.reset} followed by ${colours.bright}pnpm remix-serve${colours.reset} (not pnp${colours.bright}x${colours.reset} remix-serve)`
 );
 
 process.exitCode = 1;
